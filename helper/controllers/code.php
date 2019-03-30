@@ -65,7 +65,7 @@ class Code extends MY_Controller
         if(realpath(APPPATH.$project_path) !== false) {
             echo '生成目录已存在，请更换目录';exit;
         }
-        if(! mkdir(APPPATH.$project_path, 0777, true)) {
+        if(! @mkdir(APPPATH.$project_path, 0777, true)) {
             echo '生成'.APPPATH.$project_path.'失败，请检测权限';exit;
         }
         if(! in_array($tpl_type, array('php', 'twig'))) {
