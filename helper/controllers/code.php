@@ -4,7 +4,7 @@ require APPPATH.'third_party/CodeHelper/Autoloader.php';
 
 /**
  * 生成器模块
- * @author BobbyPeng<pengbotao@teiron.com>
+ * @author BobbyPeng<pengbotao@vip.qq.com>
  *
  */
 class Code extends MY_Controller

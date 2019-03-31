@@ -2,7 +2,7 @@
 /**
  * 公用模型类
  * 
- * @author BobbyPeng<pengbotao@teiron.com>
+ * @author BobbyPeng<pengbotao@vip.qq.com>
  *
  */
 class MY_Model extends CI_Model 
