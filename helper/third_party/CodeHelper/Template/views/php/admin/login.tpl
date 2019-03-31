@@ -50,7 +50,7 @@
             </div>
         </div>
     </div>
-    <footer><hr><p>&copy; 2013</p></footer>
+    <footer><hr><p>&copy; {{ "now"|date("Y") }}</p></footer>
 </div>
 </body>
 </html>
